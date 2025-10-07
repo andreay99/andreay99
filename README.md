@@ -4,7 +4,6 @@
 ![GitHub User's stars](https://img.shields.io/github/stars/andreay99?style=social)
 ![Profile views](https://komarev.com/ghpvc/?username=andreay99&color=blue)
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white&labelColor=blue&style=for-the-badge)
-![Twitter](https://img.shields.io/badge/Twitter-@andreayanez99-1da1f2?logo=twitter&logoColor=white&style=for-the-badge)
 ![HackHarvard](https://img.shields.io/badge/Hackathon-HackHarvard2025-red?style=for-the-badge)
 ![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Languages](https://img.shields.io/badge/Code-Python%20|%20JavaScript%20|%20SQL-blueviolet?style=for-the-badge)
