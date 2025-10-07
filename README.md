@@ -3,7 +3,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/andreay99?style=social)](https://github.com/andreay99?tab=followers)
 [![GitHub User's stars](https://img.shields.io/github/stars/andreay99?style=social)](https://github.com/andreay99?tab=stars)
 [![Profile views](https://komarev.com/ghpvc/?username=andreay99&color=blue)](https://github.com/andreay99)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white&labelColor=blue&style=for-the-badge)](https://www.linkedin.com/in/andreayanezsoto)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white&labelColor=blue&style=for-the-badge)](https://www.linkedin.com/in/andrea-yanez-soto-8b4653218)
 [![HackHarvard](https://img.shields.io/badge/Hackathon-HackHarvard2025-red?style=for-the-badge)](https://devpost.com/software/offscript)
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Languages](https://img.shields.io/badge/Code-Python%20|%20JavaScript%20|%20SQL-blueviolet?style=for-the-badge)](https://github.com/andreay99?tab=repositories)
