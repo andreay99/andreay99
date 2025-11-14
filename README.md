@@ -1,21 +1,21 @@
-### 🔍 Recall — Facial Recognition System
-> Collaborative project with Christinetrr  
-> [Repository Link](https://github.com/Christinetrr/recall)
+# README
 
-**Description:**  
-Recall is an intelligent facial recognition system designed for profile management and timeline integration. It leverages computer vision and machine learning to detect, store, and manage facial data with seamless API integration for IoT devices.
+![Badges](https://img.shields.io/badge/example-badge1-brightgreen) ![Badges](https://img.shields.io/badge/example-badge2-blue)
 
-**Tech Stack:**  
-Python • Flask • MongoDB • OpenCV • Raspberry Pi Integration
+## Offscript Project
+Details about the Offscript project...
 
-**Key Features:**
-- 📸 Face detection and profile recognition using OpenCV  
-- 💾 MongoDB schema for secure profile and timeline storage  
-- 🔌 Flask API for CRUD operations on facial profiles  
-- 📤 Photo upload and management capabilities  
-- 🤖 Raspberry Pi integration endpoints for real-time facial recognition  
+## Recall Project
+Details about the Recall project...
 
-**My Role:**  
-Built the facial recognition API backend, implemented MongoDB schema design, and created Flask endpoints for profile management with photo upload functionality.
+## AI & ML Projects
+Information about AI & ML Projects...
 
----
+## Data & Backend Projects
+Description of Data & Backend Projects...
+
+## Tech Stack Overview
+Overview of technologies used...
+
+## About Me
+Information about yourself...
