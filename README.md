@@ -1,21 +1,52 @@
-# README
+# My Projects
 
-![Badges](https://img.shields.io/badge/example-badge1-brightgreen) ![Badges](https://img.shields.io/badge/example-badge2-blue)
+## Featured Hackathon Project: **Recall**
 
-## Offscript Project
-Details about the Offscript project...
+### Description
+Recall is an innovative platform aimed at enhancing user experience through personalized recommendations, making it a standout project in the hackathon community.
 
-## Recall Project
-Details about the Recall project...
+### Tech Stack
+- React
+- Node.js
+- MongoDB
 
-## AI & ML Projects
-Information about AI & ML Projects...
+### Key Features
+- Personalized user recommendations
+- Real-time analytics for user engagement
+- Easy integration with existing platforms
 
-## Data & Backend Projects
-Description of Data & Backend Projects...
+### Role
+As the project lead, I oversaw the development process and led a team of three developers to bring Recall to fruition.
 
-## Tech Stack Overview
-Overview of technologies used...
+---
 
-## About Me
-Information about yourself...
+## Other Projects
+
+### Offscript
+*Original content retained here...*
+
+---
+
+### AI & ML Projects
+*Original content retained here...*
+
+---
+
+### Data & Backend Projects
+*Original content retained here...*
+
+---
+
+### Tech Stack Overview
+*Original content retained here...*
+
+---
+
+### About Me
+*Original content retained here...*
+
+---
+
+![HackPrinceton25](https://example.com/hackprinceton25_badge.png)  
+
+---
