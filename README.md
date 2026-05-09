@@ -1,138 +1,86 @@
-# 👩‍💻 Andrea Yanez Soto — AI & Software Engineer Portfolio
+# Andrea Yanez Soto
 
-[![GitHub followers](https://img.shields.io/github/followers/andreay99?style=social)](https://github.com/andreay99?tab=followers)
-[![GitHub User's stars](https://img.shields.io/github/stars/andreay99?style=social)](https://github.com/andreay99?tab=stars)
-[![Profile views](https://komarev.com/ghpvc/?username=andreay99&color=blue)](https://github.com/andreay99)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white&labelColor=blue&style=for-the-badge)](https://www.linkedin.com/in/andrea-yanez-soto-8b4653218)
-[![HackPrinceton25](https://img.shields.io/badge/Hackathon-HackPrinceton2025-red?style=for-the-badge)](https://github.com/Christinetrr/recall)
-[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Languages](https://img.shields.io/badge/Code-Python%20|%20JavaScript%20|%20SQL-blueviolet?style=for-the-badge)](https://github.com/andreay99?tab=repositories)
-[![Last Commit](https://img.shields.io/github/last-commit/andreay99/andreay99?style=for-the-badge)](https://github.com/andreay99/andreay99/commits/main)
+**Junior CS @ NJIT** | NASA-Funded ML Researcher | GPU Computing & Deep Learning
 
+Building production-grade ML systems from CUDA kernels to transformer architectures.
 
-Welcome to my project portfolio!  
-I'm a Computer Science student and Apple Training Lead passionate about building intelligent systems that connect humans and machines through clear, efficient, and empathetic design.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-andreayanezsoto-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/andreayanezsoto)
+[![GitHub](https://img.shields.io/github/followers/andreay99?label=Follow&style=flat&logo=github)](https://github.com/andreay99)
 
 ---
 
-## 🚀 Featured Hackathon Project
+## Current Work
 
-### 🔍 Recall — Facial Recognition System
-> Built at HackPrinceton 2025  
-> [Repository Link](https://github.com/Christinetrr/recall)
+**NASA MIRO Research Fellow** | Dec 2025 - Present  
+Training multimodal transformer models on decades of NASA/SDO and SOHO solar data to predict eruption events. Achieved 20% forecast accuracy improvement through systematic experiment tracking and Physics-Informed Neural Network integration with YOLO-based feature extraction.
 
-**Description:**  
-Recall is an intelligent facial recognition system designed for profile management and timeline integration. It leverages computer vision and machine learning to detect, store, and manage facial data with seamless API integration for IoT devices.
-
-**Tech Stack:**  
-Python • Flask • MongoDB • OpenCV • Raspberry Pi Integration
-
-**Key Features:**
-- 📸 Face detection and profile recognition using OpenCV  
-- 💾 MongoDB schema for secure profile and timeline storage  
-- 🔌 Flask API for CRUD operations on facial profiles  
-- 📤 Photo upload and management capabilities  
-- 🤖 Raspberry Pi integration endpoints for real-time facial recognition  
-
-**My Role:**  
-Built the facial recognition API backend, implemented MongoDB schema design, and created Flask endpoints for profile management with photo upload functionality.
+**Open Source**  
+Contributing to [Hugging Face Transformers](https://github.com/huggingface/transformers) — PyTorch CUDA backend API migrations ([PR #45856](https://github.com/huggingface/transformers/pull/45856))
 
 ---
 
-### 🧠 Offscript — AI-Powered Voice Interview Simulator
-> Built at HackHarvard 2025  
-> [Devpost Link](https://devpost.com/software/offscript)
+## Projects
 
-**Description:**  
-Offscript bridges the gap between technical knowledge and communication by simulating real coding interviews with AI-driven feedback. Users speak through problems while Offscript evaluates clarity and problem-solving approach.
+### [CUDA Flash Attention](https://github.com/andreay99/cuda-flash-attention)
+Implemented Flash Attention (Dao et al. 2022) forward and backward passes from scratch in raw CUDA C++.
 
-**Tech Stack:**  
-Next.js • FastAPI • Gemini AI • Vapi • TailwindCSS • SQLite
+**Performance:**
+- 22.9× softmax speedup (4.8 → 110 GB/s) via shared memory and warp-shuffle reductions
+- 86× HBM traffic reduction at seq_len=4096
+- Verified all gradients (dQ, dK, dV) against PyTorch autograd with max error <4e-7
 
-**Key Features:**
-- 🎤 Voice-based technical interviews with real-time feedback  
-- 🧩 AI analysis of communication clarity and problem-solving flow  
-- 📈 Performance analytics with transcript playback  
-- ⚙️ Invisible metadata streaming for seamless code context tracking
+**Techniques:** Shared memory tiling, warp-level primitives, online softmax, gradient recomputation
 
-**My Role:**  
-Led backend AI orchestration, integrating Gemini AI to analyze user explanations and streamline code-context synchronization.
+[Technical blog post](https://medium.com/@andreayanez) | [Benchmark results](https://github.com/andreay99/cuda-flash-attention#benchmark-results)
 
 ---
 
-## 💬 AI & ML Projects
+### [Recall](https://github.com/Christinetrr/recall) — Edge-Deployed Facial Recognition
+**Winner: Best Use of Grok (XAI) & Best Use of Arm** | HackPrinceton 2025
 
-### 🎧 SONA AI — Real-Time Emotion Detection from Voice
-**Tech Stack:** Python • TensorFlow • Librosa  
+Edge-deployable face recognition pipeline built in PyTorch and OpenCV for Raspberry Pi.
 
-**Highlights:**
-- Built end-to-end audio preprocessing and model training pipelines.  
-- Integrated agentic-system logic for real-time emotional state prediction.  
-- Achieved a **30% gain in inference efficiency** through ETL optimization.  
+- <200ms on-device inference latency
+- 94% precision with <2% false positives
+- Streaming REST API with OpenAPI docs
 
-📂 Repo: [github.com/andreay99/sona-ai](https://github.com/andreay99/sona-ai)
-
----
-
-### 🧩 AI-Powered Code Debugger
-**Tech Stack:** TypeScript • React • Node.js • OpenAI API  
-
-**Highlights:**
-- Built a backend ML module using PyTorch to detect and fix runtime bugs.  
-- Designed an interactive web interface that explains each fix step-by-step.  
-- Achieved a **50% improvement** in error resolution speed.
-
-📂 Repo: [github.com/andreay99/gpt-code-debugger](https://github.com/andreay99/gpt-code-debugger)
+**Stack:** Python, PyTorch, OpenCV, FastAPI, Raspberry Pi
 
 ---
 
-### 🧠 Fine-Tuned LLM for Code Feedback (CodeT5+)
-**Tech Stack:** Python • CodeT5+ • Hugging Face Transformers  
+### [ROM-COM](https://github.com/andreay99/rom-com) — Stroke Rehabilitation System
+**HackPrinceton Spring 2026**
 
-**Highlights:**
-- Curated domain-specific datasets for supervised fine-tuning.  
-- Improved model accuracy by **25%** using custom prompt templates.  
-- Developed scalable pipelines for text-classification and code-review feedback.
+Real-time gesture recognition for physical therapy assessment.
 
-📂 Repo: [github.com/andreay99/code-feedback-llm](https://github.com/andreay99/code-feedback-llm)
+- 96%+ CV accuracy using MediaPipe and Random Forest
+- Live FMA-UE clinical scoring from joint kinematics
+- 14+ FPS WebSocket streaming with sub-50ms latency
 
----
-
-## 🧮 Data & Backend Projects
-
-### 🚲 Bikeshare Trip Analysis
-**Tech Stack:** SQL • PostgreSQL  
-
-**Highlights:**
-- Designed a relational database for large-scale trip analysis.  
-- Implemented queries to detect anomalies and identify >30 min ride patterns.  
-- Delivered insights for improving city-wide bikeshare operations.
-
-📂 Repo: [github.com/andreay99/bikeshare-trip-analysis](https://github.com/andreay99/bikeshare-trip-analysis)
+**Stack:** Python, MediaPipe, scikit-learn, FastAPI, React
 
 ---
 
-## 🧰 Tech Stack Overview
+## Technical Stack
 
-**Languages:** Python • JavaScript / TypeScript • Java • SQL • HTML / CSS  
-**Frameworks:** React • Node.js • FastAPI • TensorFlow • PyTorch • LangGraph  
-**Databases:** PostgreSQL • MySQL • SQLite  
-**Concepts:** NLP • Agentic Systems • ML Model Lifecycle • Data Modeling • Prompt Engineering  
-
----
-
-## 🧭 About Me
-
-- 🎓 B.S. Computer Science — NJIT (2025 – 2027)  
-- 💼 Training Lead @ Apple  (Edison, NJ)  
-- 🔍 Passionate about building accessible, human-centric AI systems  
-
-**Let's Connect:**  
-🌐 [andreay99 on GitHub](https://github.com/andreay99)  
-💼 [LinkedIn](https://www.linkedin.com/in/andreayanezsoto)  
-📧 andreayanez11@outlook.com  
+**AI/ML:** PyTorch, TensorFlow, Hugging Face, OpenCV, CUDA, cuDNN  
+**Languages:** Python, C++, CUDA C, JavaScript/TypeScript, Java, SQL  
+**Tools:** Docker, Git, FastAPI, Flask, AWS, Azure, MongoDB
 
 ---
 
-## 📜 License
-All projects in this repository are released under the MIT License unless stated otherwise.
+## Recognition
+
+- **HackPrinceton 2025** — Best Use of Grok (XAI) & Best Use of Arm (MLH)
+- **NASA MIRO Fellow** — Competitive research fellowship for ML in heliophysics
+- **Apple Technical Specialist** — Top 5% nationally for quality and efficiency
+
+---
+
+## Connect
+
+**LinkedIn:** [andreayanezsoto](https://linkedin.com/in/andreayanezsoto)  
+**Website:** [andreasoto.dev](https://www.andreasoto.dev)  
+**Email:** andreayanez11@outlook.com
+
+Open to ML research collaborations and open source contributions.
